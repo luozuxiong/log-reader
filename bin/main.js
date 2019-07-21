@@ -5,10 +5,11 @@ const pkg = require('./../package');
 const Server = require('./../lib/server');
 
 commander
-    .version(pkg.version);
+    .version(pkg.version)
+    .description( 'output the version number' );
 
 commander
-    .Command('start')
+    .command('start')
 
     .option('-p --port', 'Server port')
 
