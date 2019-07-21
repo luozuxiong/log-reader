@@ -1,0 +1,30 @@
+{
+  "name": "log-ra",
+  "version": "0.0.7",
+  "description": "log reader ",
+  "main": "index.js",
+  "bin": {
+    "lrd": "./bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozuxiong/log-reader.git"
+  },
+  "author": "luozuxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozuxiong/log-reader/issues"
+  },
+  "homepage": "https://github.com/luozuxiong/log-reader#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "brower": "^0.0.2",
+    "loadsh": "^0.0.4"
+  },
+  "devDependencies": {
+
+  }
+}
